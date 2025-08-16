@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sudoku Solver and Generator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<h1>Sudoku Solver & Generator</h1>
+<div class="options">
+<button id="solve-option">Solve Sudoku</button>
+<button id="generate-option">Generate Sudoku</button>
+</div>
+<!-- Solve Sudoku Section -->
+<div id="solve-section" class="hidden">
+<h2>Solve Sudoku</h2>
+<div id="solve-grid" class="grid"></div>
+<button id="solve-button">Solve</button>
+</div>
+<!-- Generate Sudoku Section -->
+<div id="generate-section" class="hidden">
+<h2>Generate Sudoku</h2>
+<div class="difficulty">
+<button data-level="easy">Easy</button>
+<button data-level="medium">Medium</button>
+<button data-level="hard">Hard</button>
+</div>
+<div id="generated-grid" class="grid"></div>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
